@@ -60,21 +60,46 @@ body {
 /* ============================================
             Navbar Part CSS Start
 ===============================================*/
+#navbar_part {
+  padding: 28px 0;
+  background: var(--Bg-Banner);
+}
+#navbar_part .custom_menu a {
+  color: #bbbbcb;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-left: 28px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+#navbar_part .custom_menu a:hover {
+  color: var(--White, #fff);
+}
+#navbar_part .Btn button {
+  color: var(--White, #fff);
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  padding: 16px 48px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  margin-left: 24px;
+}
+#navbar_part .Btn button:hover {
+  color: var(--Dark-blue, #282938);
+  background: var(--Grey, #f4f6fc);
+}
+
 /* ============================================
-            Navbar Part CSS Start
-===============================================*/
-/* ============================================
-            Navbar Part CSS Start
-===============================================*/
-/* ============================================
-            Navbar Part CSS Start
-===============================================*/
-/* ============================================
-            Navbar Part CSS Start
-===============================================*/
-/* ============================================
-            Navbar Part CSS Start
-===============================================*/
-/* ============================================
-            Navbar Part CSS Start
+            Navbar Part CSS End
 ===============================================*/
