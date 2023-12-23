@@ -103,3 +103,87 @@ body {
 /* ============================================
             Navbar Part CSS End
 ===============================================*/
+
+/* ============================================
+            Blog Part CSS Start
+===============================================*/
+
+#blog_part {
+  padding: 128px 0;
+}
+#blog_part .blog_heading {
+  text-align: center;
+}
+#blog_part .blog_heading h1 {
+  color: var(--Dark-blue, #282938);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  padding-bottom: 16px;
+}
+
+#blog_part .blog_heading .heading_name a {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.87;
+}
+#blog_part .blog_heading .heading_name span {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-left: 6px;
+}
+#blog_part .banner_img {
+  margin: 48px 0;
+  cursor: pointer;
+}
+#blog_part .blog_content h2 {
+  color: var(--Dark-blue, #282938);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  padding-bottom: 32px;
+  padding-top: 16px;
+}
+
+#blog_part .blog_content p {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  padding-bottom: 24px;
+  padding-right: 23px;
+}
+
+#blog_part .blog_content p a {
+  color: var(--Royal-Blue, #2405f2);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#blog_part .blog_content p a:hover {
+  color: red;
+}
+
+#blog_part .blog_content .blog_list {
+  padding-bottom: 24px;
+}
+#blog_part .blog_content .blog_list ul li {
+  margin-bottom: 12px;
+}
+#blog_part .blog_content .blog_list ul li span {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  padding-left: 6px;
+}
+
+/* ============================================
+            Blog Part CSS End
+===============================================*/
