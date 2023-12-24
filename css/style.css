@@ -187,3 +187,191 @@ body {
 /* ============================================
             Blog Part CSS End
 ===============================================*/
+
+/* ============================================
+            Footer Part CSS Start
+===============================================*/
+
+#footer_part {
+  padding-top: 100px;
+  background: var(--Bg-Banner);
+}
+
+#footer_part .footer_left p {
+  color: var(--White, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+  padding-top: 22px;
+}
+#footer_part .footer_right h3 {
+  color: var(--White, #fff);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  padding-bottom: 14px;
+}
+#footer_part .footer_right p {
+  color: var(--Grey, #f4f6fc);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+  padding-bottom: 40px;
+}
+#footer_part .footer_right .social_icons a [class="fa-brands fa-facebook-f"] {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #1674ea;
+  background: var(--White, #fff);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  padding-left: 1px;
+}
+#footer_part
+  .footer_right
+  .social_icons
+  a
+  [class="fa-brands fa-facebook-f"]:hover {
+  color: var(--White, #fff);
+  background: #1674ea;
+  transform: translateY(-23%);
+  -webkit-transform: translateY(-23%);
+  -moz-transform: translateY(-23%);
+  -ms-transform: translateY(-23%);
+  -o-transform: translateY(-23%);
+}
+#footer_part .footer_right .social_icons a [class="fa-brands fa-twitter"] {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #1da1f2;
+  background: var(--White, #fff);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  margin-left: 7px;
+}
+#footer_part
+  .footer_right
+  .social_icons
+  a
+  [class="fa-brands fa-twitter"]:hover {
+  color: var(--White, #fff);
+  background: #1da1f2;
+  transform: translateY(-23%);
+  -webkit-transform: translateY(-23%);
+  -moz-transform: translateY(-23%);
+  -ms-transform: translateY(-23%);
+  -o-transform: translateY(-23%);
+}
+#footer_part .footer_right .social_icons a [class="fa-brands fa-instagram"] {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #d62976;
+  background: var(--White, #fff);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  margin-left: 7px;
+}
+#footer_part
+  .footer_right
+  .social_icons
+  a
+  [class="fa-brands fa-instagram"]:hover {
+  color: var(--White, #fff);
+  background: #d62976;
+  transform: translateY(-23%);
+  -webkit-transform: translateY(-23%);
+  -moz-transform: translateY(-23%);
+  -ms-transform: translateY(-23%);
+  -o-transform: translateY(-23%);
+}
+
+#footer_part .footer_right .social_icons a [class="fa-brands fa-linkedin-in"] {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #0a66c2;
+  background: var(--White, #fff);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  margin-left: 7px;
+}
+
+#footer_part
+  .footer_right
+  .social_icons
+  a
+  [class="fa-brands fa-linkedin-in"]:hover {
+  color: var(--White, #fff);
+  background: #0a66c2;
+  transform: translateY(-23%);
+  -webkit-transform: translateY(-23%);
+  -moz-transform: translateY(-23%);
+  -ms-transform: translateY(-23%);
+  -o-transform: translateY(-23%);
+}
+
+#footer_part .contact_part {
+  padding: 18px 37px;
+  background: var(--Yellow, #fcd980);
+  margin-top: 25px;
+}
+
+#footer_part .contact_part .contact_content h6 {
+  color: var(--Dark-blue, #282938);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+#footer_part .contact_part .contact_content a {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+
+/* ============================================
+            Footer Part CSS End
+===============================================*/
