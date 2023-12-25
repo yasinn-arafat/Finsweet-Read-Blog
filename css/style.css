@@ -375,3 +375,40 @@ body {
 /* ============================================
             Footer Part CSS End
 ===============================================*/
+/* ============================================
+            Last Part CSS Start
+===============================================*/
+
+#last_part {
+  padding: 32px 0;
+}
+#last_part .last_part_left a {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#last_part .last_part_right a {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 0 10px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+#last_part .last_part_right a:hover {
+  border-radius: 30px;
+  background: var(--Yellow);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+/* ============================================
+            Last Part CSS End
+===============================================*/
